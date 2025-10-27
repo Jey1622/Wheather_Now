@@ -29,7 +29,9 @@ Fetch API – For API calls
 📸 Screenshots
 🌇 Weather Display
 <img src="./src/assets/weather-chennai.png" alt="Weather Chennai Screenshot" width="600"/>
+
 ⚙️ Installation
+
 1️⃣ Clone the repository
 git clone https://github.com/Jey1622/Wheather_Now
 cd weather-now
@@ -45,26 +47,6 @@ npm run dev
 Navigate to:
 👉 http://localhost:5173
 
-📁 Folder Structure
-weather-now/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   │   └── weather-chennai.png
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   ├── index.css
-│   └── WheatherApp.jsx
-│
-├── .gitignore
-├── package-lock.json
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
 
 🧩 API Reference
 
