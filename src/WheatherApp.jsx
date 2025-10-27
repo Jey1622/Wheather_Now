@@ -106,7 +106,7 @@ function WheatherApp() {
       <div className="w-full max-w-2xl">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-8 text-white">
-            <h1 className="text-4xl font-bold mb-2">Weather Check</h1>
+            <h1 className="text-4xl font-bold mb-2">Weather Now</h1>
             <p className="text-blue-100">
               Get instant weather updates for any city
             </p>

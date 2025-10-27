@@ -1,16 +1,96 @@
-# React + Vite
+🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Now is a responsive weather web application built using React and Tailwind CSS. It allows users to get real-time weather updates for any city around the world — including temperature, humidity, pressure, wind speed, and more.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌎 Search weather by city name
 
-## React Compiler
+🌡️ Displays temperature, feels like, and conditions (e.g., Overcast, Sunny, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💧 Shows humidity, pressure, wind speed, and wind direction
 
-## Expanding the ESLint configuration
+🌫️ Displays visibility and precipitation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📅 Shows current date and location
+
+💻 Fully responsive design using Tailwind CSS
+
+🛠️ Tech Stack
+
+React (Vite) – Frontend framework
+
+Tailwind CSS – Styling and responsiveness
+
+OpenWeatherMap API – Weather data provider
+
+Fetch API – For API calls
+
+📸 Screenshots
+🌇 Weather Display
+<img src="./src/assets/weather-chennai.png" alt="Weather Chennai Screenshot" width="600"/>
+⚙️ Installation
+1️⃣ Clone the repository
+git clone https://github.com/Jey1622/Wheather_Now
+cd weather-now
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the development server
+npm run dev
+
+4️⃣ Open in your browser
+
+Navigate to:
+👉 http://localhost:5173
+
+📁 Folder Structure
+weather-now/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   └── weather-chennai.png
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── index.css
+│   └── WheatherApp.jsx
+│
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+🧩 API Reference
+
+OpenWeatherMap API Endpoint:
+
+https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,wind_direction_10m,pressure_msl,visibility&timezone=auto
+
+✨ Example
+
+Search: Chennai
+Result:
+
+Temperature: 25°C
+
+Condition: Overcast
+
+Feels Like: 30°C
+
+Humidity: 94%
+
+Wind Speed: 7 km/h
+
+Pressure: 1008 hPa
+
+👨‍💻 Author
+
+Jeyaraman S
+Full Stack Developer
+ 💼 [LinkedIn](www.linkedin.com/in/jeya-raman)
